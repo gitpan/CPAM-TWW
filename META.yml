@@ -1,0 +1,33 @@
+---
+abstract: 'The great new CPAM::TWW!'
+author:
+  - 'T.J. Yang, C<< <tjyang2001 at gmail.com> >>'
+  - 'T.J. Yang <tjyang2001@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.95'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CPAM-TWW
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Config::General: 2.44
+  Data::Dumper: 2.124
+  Getopt::Long: 2.38
+  Graph: 0.90
+  GraphViz: 2.04
+  IO: 1.25
+  XML::LibXML: 1.70
+  XML::XPath: 1.13
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: 0.01
